@@ -2,7 +2,6 @@ import java.util.UUID;
 import java.util.ArrayList;
 import java.util.List;
 
-// Step 1: Record to hold ticket data
 record TicketData(String passengerName, String source, String destination, double price) {}
 
 // Step 2: Sealed abstract class for Ticket
